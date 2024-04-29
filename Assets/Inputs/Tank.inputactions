@@ -40,6 +40,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "TourelleRotate",
+                    "type": "Value",
+                    "id": "19631ca1-0f4d-4e49-bcdd-d724448ba8d5",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -57,7 +66,7 @@
                 {
                     "name": "negative",
                     "id": "7bd69547-c904-4aa5-8091-05addb50af38",
-                    "path": "<Keyboard>/downArrow",
+                    "path": "<Keyboard>/#(S)",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -68,7 +77,7 @@
                 {
                     "name": "positive",
                     "id": "cb28ab26-0d4c-4868-9ab5-6fbaeeb35bbd",
-                    "path": "<Keyboard>/upArrow",
+                    "path": "<Keyboard>/#(Z)",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -101,7 +110,7 @@
                 {
                     "name": "negative",
                     "id": "ce470df0-4269-4b56-aa55-ffebcf5cddbe",
-                    "path": "<Keyboard>/leftArrow",
+                    "path": "<Keyboard>/#(Q)",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -112,7 +121,7 @@
                 {
                     "name": "positive",
                     "id": "e3881e50-0d90-46db-b08b-bc837337ff37",
-                    "path": "<Keyboard>/rightArrow",
+                    "path": "<Keyboard>/#(D)",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -174,6 +183,72 @@
                     "action": "Charge",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "Manette",
+                    "id": "089fc209-660d-42c7-b951-ee7bcf1ecee0",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TourelleRotate",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "b2875ed0-bbb0-44ab-a720-5a7ec45b0ef1",
+                    "path": "<Gamepad>/leftShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TourelleRotate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "47e0b80f-f2c0-400b-bf5a-f9b711497ed1",
+                    "path": "<Gamepad>/rightShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TourelleRotate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Clavier",
+                    "id": "90f2d1eb-944d-48e8-9b1a-ea707916c609",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TourelleRotate",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "b939a1d3-06cb-4470-b34f-3cf894beab5c",
+                    "path": "<Keyboard>/#(A)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TourelleRotate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "d6d2c4b0-e6cd-44ea-9bf0-adc436c56aad",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TourelleRotate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
                 }
             ]
         }

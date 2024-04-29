@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Ennemy
+  - EndOfLevel
+  - Bridge
+  - baballe
+  - baballeLourde
+  - baballeJoueur
   layers:
   - Default
   - TransparentFX

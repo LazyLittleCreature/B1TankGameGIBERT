@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Style.uss?fileID=7433441132597879392&amp;guid=c4a09b1974649f341b394a87d1f94606&amp;type=3#Style" />
+    <ui:VisualElement name="Background" style="flex-grow: 1; -unity-background-image-tint-color: rgb(255, 255, 255); background-color: rgb(192, 97, 97);">
+        <ui:VisualElement name="BackgroundOfWhiteBox" style="flex-grow: 1; align-self: center; align-items: center; justify-content: center; height: 583px; overflow: visible; -unity-background-image-tint-color: rgb(0, 0, 0); background-color: rgba(255, 255, 255, 0);">
+            <ui:VisualElement name="White_Box" style="flex-grow: 0; height: 395px; width: 342px; flex-direction: column; align-items: auto; justify-content: center; align-self: auto; visibility: visible; overflow: visible; background-color: rgba(255, 255, 255, 0.87); border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; flex-wrap: nowrap;">
+                <ui:Label text="Main Menu" name="Main_Menu" class="Title" />
+                <ui:Button text="Play" enable-rich-text="true" emoji-fallback-support="true" parse-escape-sequences="false" selectable="false" name="PlayButton" class="button-style" style="-unity-text-align: middle-center; white-space: nowrap; text-overflow: clip;" />
+                <ui:Button text="Controls" name="ControlsButton" class="button-style" style="white-space: nowrap; -unity-text-align: middle-center; justify-content: flex-start; align-items: stretch; align-self: center; bottom: auto;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

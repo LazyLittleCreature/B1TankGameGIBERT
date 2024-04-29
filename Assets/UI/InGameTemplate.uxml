@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="PlayerInfoBox" style="flex-grow: 0; height: 102px; width: 246px;">
+        <ui:ProgressBar value="100" name="Pvs" title="Pvs" style="height: 27px; width: 213px; -unity-font-style: bold-and-italic; -unity-text-align: upper-left; top: 10px; left: 10px; background-color: rgba(0, 0, 0, 0);" />
+        <ui:ProgressBar value="0" name="ChargeBar" high-value="3" title="Charge" style="width: 213px; -unity-font-style: bold-and-italic; top: 15px; left: 10px;" />
+    </ui:VisualElement>
+</ui:UXML>
